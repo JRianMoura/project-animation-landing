@@ -45,8 +45,13 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
   transform: scale(1.25);
-  background-image: url("/logo_white.svg");
+  background-image: url("/gta_logo_cut.svg");
   background-size: 1000vh;
   background-position: 50% 41.7%;
   background-repeat: no-repeat;
@@ -64,12 +69,9 @@ body {
 }
 
 .hero-main-logo {
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  inset: 0;
+  width: 20%;
+  height: auto;
   z-index: 1;
-  object-fit: cover;
 }
 
 .hero-text-logo-container {
@@ -92,7 +94,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url("/gta_logo_purple.webp");
+  background-image: url("/gta_logo_cut.svg");
   background-repeat: no-repeat;
   background-position: 50% 41.7%;
   background-size: 28vh;
@@ -145,7 +147,7 @@ body {
   height: 100vh;
   position: absolute;
   inset: 0;
-  /* z-index: -1; */
+  z-index: -1;
   opacity: 0;
   object-fit: cover;
   background-image: radial-gradient(
@@ -199,5 +201,14 @@ body {
 
   .hero-2-container h3 {
     font-size: 3.5rem;
+  }
+}
+
+@keyframes swing {
+  0% {
+    rotate: 5deg;
+  }
+  100% {
+    rotate: -5deg;
   }
 }
