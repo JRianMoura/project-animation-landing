@@ -43,7 +43,7 @@ export default function PathParade() {
   return (
     <div
       ref={wrapRef}
-      className="relative mx-auto w-full max-w-6xl mt-50 mb-50"
+      className="relative mx-auto w-full mt-50 mb-50 bg-blue-400"
       style={{ aspectRatio: "991/112" }}
     >
       {/* Seguidores (pode trocar por ícones/mini-SVGs) */}

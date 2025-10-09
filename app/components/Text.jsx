@@ -36,7 +36,7 @@ const Text = () => {
   return (
     <section className="h-screen flex items-center justify-center split-item">
       <div className="text-purple-700 font-bold text-9xl tracking-widest split">
-        SEADOO
+        MARESITES
       </div>
     </section>
   );
